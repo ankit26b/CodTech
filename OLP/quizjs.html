@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jsquiz</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+   
+        <section class="flex">
+     
+           <a href="home.html" class="logo">OLP</a>
+     
+           <form action="search.html" method="post" class="search-form">
+              <input type="text" name="search_box" required placeholder="search courses..." maxlength="100">
+              <button type="submit" class="fas fa-search"></button>
+           </form>
+     
+           <div class="icons">
+              <div id="menu-btn" class="fas fa-bars"></div>
+              <div id="search-btn" class="fas fa-search"></div>
+              <div id="user-btn" class="fas fa-user"></div>
+              <div id="toggle-btn" class="fas fa-sun"></div>
+           </div>
+     
+           <div class="profile">
+              <img src="images/pic-1.jpg" class="image" alt="">
+              <h3 class="name">Ankit Barmase</h3>
+              <p class="role">student</p>
+              <a href="profile.html" class="btn">view profile</a>
+              <div class="flex-btn">
+                 <a href="login.html" class="option-btn">login</a>
+                 <a href="register.html" class="option-btn">register</a>
+              </div>
+           </div>
+     
+        </section>
+     
+     </header>   
+     
+     <div class="side-bar">
+     
+        <div id="close-btn">
+           <i class="fas fa-times"></i>
+        </div>
+     
+        <div class="profile">
+           <img src="images/pic-1.jpg" class="image" alt="">
+           <h3 class="name">Ankit Barmase</h3>
+           <p class="role">student</p>
+           <a href="profile.html" class="btn">view profile</a>
+        </div>
+     
+        <nav class="navbar">
+           <a href="home.html"><i class="fas fa-home"></i><span>home</span></a>
+           <a href="about.html"><i class="fas fa-question"></i><span>about</span></a>
+           <a href="courses.html"><i class="fas fa-graduation-cap"></i><span>courses</span></a>
+           <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span>teachers</span></a>
+           <a href="contact.html"><i class="fas fa-headset"></i><span>contact us</span></a>
+           <a href="quizes.html"><i class="fa-solid fa-question"></i><span>Quizes</span></a>
+        </nav>
+     
+     </div>
+
+    <section class="courses">
+      <h1 class="heading">JS Quiz</h1>
+      <div class="quiz">
+        <h1 id="question">Question</h1>
+        <div id="answer-buttons">
+          <button class="btn2">Answer 1</button>
+          <button class="btn2">Answer 2</button>
+          <button class="btn2">Answer 3</button>
+          <button class="btn2">Answer 4</button>
+        </div>
+        <button id="next-btn">Next</button>
+      </div>
+    </section>
+     
+     <!-- custom js file link  -->
+     <script src="js/script.js"></script>
+     <script src="js/jsscript.js"></script>
+  </body>
+</html>

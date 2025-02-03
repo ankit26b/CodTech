@@ -1,0 +1,17 @@
+# Node modules
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+
+# Build files (if using Vite or Create React App)
+dist/
+build/
+
+# Optional: Ignore package-lock.json if you don’t want strict dependencies
+# package-lock.json
